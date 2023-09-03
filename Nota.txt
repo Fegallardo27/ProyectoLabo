@@ -1,0 +1,23 @@
+El examen integrador se deberá desarrollar de manera grupal (hasta cuatro personas) y se divide en cuatro pasos:
+
+Paso #01 - Registrar el equipo, cada miembro del equipo debe registrarse en la selección de equipos.
+Paso #02 - Definir el tema a desarrollar
+Paso #03 - Desarrollo de un informe escrito del alcance del programa y de diagrama de clases (o declaraciones de las clases a utilizar).
+Paso #04 - Presentación completa y modificaciones al programa desarrollado en la 3º instancia. Se realizará la defensa del mismo a través de una videoconferencia.
+
+Grupo 25
+Sistema de gestion de Turnos de Salud.
+
+Docturnos.com
+Usuario
+Registro de paciente
+Solicitud de cita
+Historia de cita 
+
+//Sistema de turnos. 
+
+
+Class Usario(Nombre,apellido,Dni,CoberturaMedica,edad)
+Class fechaTurno
+Class f
+Class Paciente, Professionales 
