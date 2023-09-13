@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1694561643 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\funcionesproyecto.cpp
+	<iostream>
+	"funcionesproyecto.h"
+
+1693784629 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\funcionesproyecto.h
+
+1694563382 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\main.cpp
+	<iostream>
+	"funcionesproyecto.h"
+	"Usuario.h"
+	"Paciente.h"
+
+1694562962 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\usuario.h
+	<iostream>
+	<string>
+
+1694563793 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\usuario.cpp
+	<iostream>
+	"Usuario.h"
+
+1694563074 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\paciente.h
+	<iostream>
+	"Usuario.h"
+
+1694563793 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\paciente.cpp
+	"Paciente.h"
+
