@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1694561643 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\funcionesproyecto.cpp
+	<iostream>
+	"funcionesproyecto.h"
+
+1693784629 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\funcionesproyecto.h
+
+1694649435 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\main.cpp
+	<iostream>
+	"funcionesproyecto.h"
+	"Persona.h"
+	"Usuario.h"
+	"Paciente.h"
+
+1694647480 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\usuario.h
+	<iostream>
+	<cstdlib>
+	<string>
+	"Persona.h"
+
+1694649435 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\usuario.cpp
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1694644379 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\paciente.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1694647543 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\paciente.cpp
+	<cstdlib>
+	"Paciente.h"
+
+1694644512 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\persona.h
+	<cstring>
+	<cstdlib>
+
+1694647513 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\profesionales.cpp
+	<cstdlib>
+	"profesionales.h"
+
+1694644512 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\profesionales.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1694645170 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\persona.cpp
+	<cstring>
+	<cstdlib>
+	"Persona.h"
+
