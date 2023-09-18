@@ -1,0 +1,28 @@
+# depslib dependency file v1.0
+1695075149 source:c:\users\fedin\desktop\proyecto labo\proyectolaboavancebalta\persona.cpp
+	<cstring>
+	"Persona.h"
+
+1695076131 c:\users\fedin\desktop\proyecto labo\proyectolaboavancebalta\persona.h
+	<iostream>
+
+1695075245 source:c:\users\fedin\desktop\proyecto labo\proyectolaboavancebalta\usuarios.cpp
+	<cstring>
+	<iostream>
+	"Usuarios.h"
+
+1695075251 c:\users\fedin\desktop\proyecto labo\proyectolaboavancebalta\usuarios.h
+	"Persona.h"
+
+1695081079 source:c:\users\fedin\desktop\proyecto labo\proyectolaboavancebalta\proyectoavance3\main.cpp
+	<iostream>
+	<cstdio>
+	"Persona.h"
+	"Usuarios.h"
+
+1695076131 c:\users\fedin\desktop\proyecto labo\proyectolaboavancebalta\proyectoavance3\persona.h
+	<iostream>
+
+1695075251 c:\users\fedin\desktop\proyecto labo\proyectolaboavancebalta\proyectoavance3\usuarios.h
+	"Persona.h"
+
