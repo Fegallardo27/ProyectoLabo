@@ -1,0 +1,29 @@
+Siste gestion:
+
+Menuprincipal:
+Cartel de bienvenida
+validar si el usario esta registado o no
+pedimos dni y contreseña para que se loguee.
+Se validar si es administrador o usuario.
+	Menu administrador:
+		*abml profesionales
+		*abml turnos(habilitar turnos por dia x profesional)
+	Menu usuario:
+		abml turno
+		abml datos personales{
+funciones proyecto{
+	escribirUsuario(){
+	creararchivo
+	pasarla la info de los metodos de la clase usario que heredan persona
+ 	verUsuarioRegistrado();{
+	muestralainfode los metodos de la clase usario que heredan persona	
+}
+}
+
+
+*ABML
+	Alta
+	Baja
+	Modificacion
+	Lectura
+
