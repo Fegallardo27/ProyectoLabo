@@ -1,0 +1,340 @@
+# depslib dependency file v1.0
+1694561643 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\funcionesproyecto.cpp
+	<iostream>
+	"funcionesproyecto.h"
+
+1693784629 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\funcionesproyecto.h
+
+1694649435 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\main.cpp
+	<iostream>
+	"funcionesproyecto.h"
+	"Persona.h"
+	"Usuario.h"
+	"Paciente.h"
+
+1694647480 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\usuario.h
+	<iostream>
+	<cstdlib>
+	<string>
+	"Persona.h"
+
+1694649435 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\usuario.cpp
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1694644379 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\paciente.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1694647543 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\paciente.cpp
+	<cstdlib>
+	"Paciente.h"
+
+1694644512 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\persona.h
+	<cstring>
+	<cstdlib>
+
+1694647513 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\profesionales.cpp
+	<cstdlib>
+	"profesionales.h"
+
+1694644512 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\profesionales.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1694645170 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba1\persona.cpp
+	<cstring>
+	<cstdlib>
+	"Persona.h"
+
+1695490137 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\funcionesproyecto.cpp
+	<iostream>
+	<cstdio>
+	"Persona.h"
+	"usuario.h"
+
+1695490359 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\funcionesproyecto.h
+	<iostream>
+	<cstdio>
+	"Persona.h"
+	"usuario.h"
+
+1695490324 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\main.cpp
+	<iostream>
+	<cstdio>
+	"funcionesproyecto.h"
+	"Persona.h"
+	"Usuario.h"
+	"Paciente.h"
+	"funcionesproyecto.h"
+
+1695479329 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\persona.h
+	<cstring>
+	<cstdlib>
+
+1695479579 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\usuario.h
+	<iostream>
+	<cstdlib>
+	<string>
+	"Persona.h"
+
+1694644379 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\paciente.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1694647543 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\paciente.cpp
+	<cstdlib>
+	"Paciente.h"
+
+1695479377 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\persona.cpp
+	<cstring>
+	<cstdlib>
+	"Persona.h"
+
+1694647513 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\profesionales.cpp
+	<cstdlib>
+	"profesionales.h"
+
+1694644512 c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\profesionales.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1695484488 source:c:\users\fedin\desktop\proyecto labo\proyectolaboprueba2 - copia\usuario.cpp
+	<iostream>
+	<cstring>
+	"Usuario.h"
+
+1696113871 source:c:\users\fedin\desktop\proyecto labo\avance4\main.cpp
+	<iostream>
+	<cstdio>
+	"funcionesproyecto.h"
+	"Persona.h"
+	"Usuario.h"
+	"Paciente.h"
+	"funcionesproyecto.h"
+	"funcionesMenu.h"
+
+1696456686 c:\users\fedin\desktop\proyecto labo\avance4\funcionesproyecto.h
+	<iostream>
+	<cstdio>
+	"Persona.h"
+	"Usuario.h"
+
+1696128194 c:\users\fedin\desktop\proyecto labo\avance4\persona.h
+	<cstring>
+	<cstdlib>
+	<cstdio>
+
+1696457598 c:\users\fedin\desktop\proyecto labo\avance4\usuario.h
+	<iostream>
+	<cstdlib>
+	<string>
+	"Persona.h"
+	"funcionesproyecto.h"
+
+1694644379 c:\users\fedin\desktop\proyecto labo\avance4\paciente.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1694647543 source:c:\users\fedin\desktop\proyecto labo\avance4\paciente.cpp
+	<cstdlib>
+	"Paciente.h"
+
+1696128194 source:c:\users\fedin\desktop\proyecto labo\avance4\persona.cpp
+	<cstring>
+	<cstdlib>
+	<cstdio>
+	"Persona.h"
+
+1694647513 source:c:\users\fedin\desktop\proyecto labo\avance4\profesionales.cpp
+	<cstdlib>
+	"profesionales.h"
+
+1694644512 c:\users\fedin\desktop\proyecto labo\avance4\profesionales.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1696130929 source:c:\users\fedin\desktop\proyecto labo\avance4\usuario.cpp
+	<iostream>
+	<cstring>
+	"Usuario.h"
+	"funcionesproyecto.h"
+
+1696456686 source:c:\users\fedin\desktop\proyecto labo\avance4\funcionesproyecto.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	"Persona.h"
+	"Usuario.h"
+	"funcionesproyecto.h"
+
+1696113871 c:\users\fedin\desktop\proyecto labo\avance4\funcionesmenu.h
+	<cstring>
+
+1696457130 source:c:\users\fedin\desktop\proyecto labo\avance4\funcionesmenu.cpp
+	<iostream>
+	<cstring>
+	"funcionesMenu.h"
+	"funcionesproyecto.h"
+	"Persona.h"
+	"Usuario.h"
+
+1697159783 source:c:\users\fedin\desktop\proyecto labo\avance 5\funcionesmenu.cpp
+	<iostream>
+	<cstring>
+	"Persona.h"
+	"Usuario.h"
+	"funcionesMenu.h"
+	"funcionesproyecto.h"
+
+1696113871 c:\users\fedin\desktop\proyecto labo\avance 5\funcionesmenu.h
+	<cstring>
+
+1697159348 c:\users\fedin\desktop\proyecto labo\avance 5\funcionesproyecto.h
+	<iostream>
+	<cstdio>
+	"Persona.h"
+	"Usuario.h"
+
+1696128194 c:\users\fedin\desktop\proyecto labo\avance 5\persona.h
+	<cstring>
+	<cstdlib>
+	<cstdio>
+
+1697158703 c:\users\fedin\desktop\proyecto labo\avance 5\usuario.h
+	<iostream>
+	<cstdlib>
+	<string>
+	"Persona.h"
+
+1696113871 source:c:\users\fedin\desktop\proyecto labo\avance 5\main.cpp
+	<iostream>
+	<cstdio>
+	"funcionesproyecto.h"
+	"Persona.h"
+	"Usuario.h"
+	"Paciente.h"
+	"funcionesproyecto.h"
+	"funcionesMenu.h"
+
+1694644379 c:\users\fedin\desktop\proyecto labo\avance 5\paciente.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1696542047 source:c:\users\fedin\desktop\proyecto labo\avance 5\paciente.cpp
+	<cstdlib>
+	"Paciente.h"
+
+1696128194 source:c:\users\fedin\desktop\proyecto labo\avance 5\persona.cpp
+	<cstring>
+	<cstdlib>
+	<cstdio>
+	"Persona.h"
+
+1696548010 source:c:\users\fedin\desktop\proyecto labo\avance 5\profesionales.cpp
+	<cstdlib>
+	"profesionales.h"
+
+1694644512 c:\users\fedin\desktop\proyecto labo\avance 5\profesionales.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1697158516 source:c:\users\fedin\desktop\proyecto labo\avance 5\usuario.cpp
+	<iostream>
+	<cstring>
+	"Usuario.h"
+	"funcionesproyecto.h"
+
+1697159783 source:c:\users\fedin\desktop\proyecto labo\avance 5\funcionesproyecto.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	"Persona.h"
+	"Usuario.h"
+	"funcionesproyecto.h"
+
+1697159783 source:c:\users\fedin\desktop\proyecto labo\avance 6\funcionesmenu.cpp
+	<iostream>
+	<cstring>
+	"Persona.h"
+	"Usuario.h"
+	"funcionesMenu.h"
+	"funcionesproyecto.h"
+
+1696128194 c:\users\fedin\desktop\proyecto labo\avance 6\persona.h
+	<cstring>
+	<cstdlib>
+	<cstdio>
+
+1697158703 c:\users\fedin\desktop\proyecto labo\avance 6\usuario.h
+	<iostream>
+	<cstdlib>
+	<string>
+	"Persona.h"
+
+1696113871 c:\users\fedin\desktop\proyecto labo\avance 6\funcionesmenu.h
+	<cstring>
+
+1697159348 c:\users\fedin\desktop\proyecto labo\avance 6\funcionesproyecto.h
+	<iostream>
+	<cstdio>
+	"Persona.h"
+	"Usuario.h"
+
+1697159937 source:c:\users\fedin\desktop\proyecto labo\avance 6\funcionesproyecto.cpp
+	<iostream>
+	<cstdio>
+	<cstring>
+	"Persona.h"
+	"Usuario.h"
+	"funcionesproyecto.h"
+
+1696113871 source:c:\users\fedin\desktop\proyecto labo\avance 6\main.cpp
+	<iostream>
+	<cstdio>
+	"funcionesproyecto.h"
+	"Persona.h"
+	"Usuario.h"
+	"Paciente.h"
+	"funcionesproyecto.h"
+	"funcionesMenu.h"
+
+1694644379 c:\users\fedin\desktop\proyecto labo\avance 6\paciente.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1696542047 source:c:\users\fedin\desktop\proyecto labo\avance 6\paciente.cpp
+	<cstdlib>
+	"Paciente.h"
+
+1696128194 source:c:\users\fedin\desktop\proyecto labo\avance 6\persona.cpp
+	<cstring>
+	<cstdlib>
+	<cstdio>
+	"Persona.h"
+
+1696548010 source:c:\users\fedin\desktop\proyecto labo\avance 6\profesionales.cpp
+	<cstdlib>
+	"profesionales.h"
+
+1694644512 c:\users\fedin\desktop\proyecto labo\avance 6\profesionales.h
+	<iostream>
+	<cstdlib>
+	"Usuario.h"
+
+1697158516 source:c:\users\fedin\desktop\proyecto labo\avance 6\usuario.cpp
+	<iostream>
+	<cstring>
+	"Usuario.h"
+	"funcionesproyecto.h"
+
