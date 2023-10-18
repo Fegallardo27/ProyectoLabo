@@ -1,0 +1,61 @@
+# depslib dependency file v1.0
+1697317249 source:c:\users\fedin\desktop\avance7\avance7\fecha.cpp
+	"Fecha.h"
+	<iostream>
+
+1697317249 c:\users\fedin\desktop\avance7\avance7\fecha.h
+
+1697317249 source:c:\users\fedin\desktop\avance7\avance7\funciones.cpp
+	<iostream>
+	<cstring>
+	"Funciones.h"
+	"Persona.h"
+	"Usuarios.h"
+
+1697317249 c:\users\fedin\desktop\avance7\avance7\funciones.h
+	"Persona.h"
+	"Usuarios.h"
+
+1697385288 c:\users\fedin\desktop\avance7\avance7\persona.h
+	"Fecha.h"
+
+1697317249 c:\users\fedin\desktop\avance7\avance7\usuarios.h
+	"Persona.h"
+
+1697409485 source:c:\users\fedin\desktop\avance7\avance7\funcionmenu.cpp
+	<iostream>
+	<cstring>
+	<string>
+	"FuncionMenu.h"
+	"Persona.h"
+	"Usuarios.h"
+	"Funciones.h"
+	"MenuUsuario.h"
+
+1697317249 c:\users\fedin\desktop\avance7\avance7\funcionmenu.h
+
+1697317249 c:\users\fedin\desktop\avance7\avance7\menuusuario.h
+
+1697385288 source:c:\users\fedin\desktop\avance7\avance7\main.cpp
+	<iostream>
+	"Fecha.h"
+	"Persona.h"
+	"Usuarios.h"
+	"FuncionMenu.h"
+
+1697317249 source:c:\users\fedin\desktop\avance7\avance7\menuusuario.cpp
+	"MenuUsuario.h"
+	<iostream>
+
+1697385288 source:c:\users\fedin\desktop\avance7\avance7\persona.cpp
+	"Persona.h"
+	<cstring>
+	"Persona.h"
+
+1697317249 source:c:\users\fedin\desktop\avance7\avance7\usuarios.cpp
+	"Usuarios.h"
+	"Funciones.h"
+	<cstring>
+	<iostream>
+	<string>
+
