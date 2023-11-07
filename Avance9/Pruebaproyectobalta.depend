@@ -1,0 +1,145 @@
+# depslib dependency file v1.0
+1698707291 source:c:\users\fedin\desktop\avance7\pruebaproyectobalta\archivos.cpp
+	"Archivos.h"
+	<string>
+	<cstdio>
+	<iostream>
+
+1698707291 c:\users\fedin\desktop\avance7\pruebaproyectobalta\archivos.h
+	"Usuarios.h"
+	<string>
+
+1698707291 c:\users\fedin\desktop\avance7\pruebaproyectobalta\usuarios.h
+	"Persona.h"
+
+1698707291 c:\users\fedin\desktop\avance7\pruebaproyectobalta\persona.h
+	<string>
+	"Fecha.h"
+
+1698707292 c:\users\fedin\desktop\avance7\pruebaproyectobalta\fecha.h
+	<string>
+
+1698707291 source:c:\users\fedin\desktop\avance7\pruebaproyectobalta\fecha.cpp
+	<string>
+	"Fecha.h"
+
+1698707291 source:c:\users\fedin\desktop\avance7\pruebaproyectobalta\main.cpp
+	<iostream>
+	<cstring>
+	<string>
+	"MenuPrincipal.h"
+
+1698707291 c:\users\fedin\desktop\avance7\pruebaproyectobalta\menuprincipal.h
+	"MovimientoUsuario.h"
+
+1698707292 c:\users\fedin\desktop\avance7\pruebaproyectobalta\movimientousuario.h
+	"Archivos.h"
+	"Usuarios.h"
+	"MenuUsuario.h"
+
+1698707292 c:\users\fedin\desktop\avance7\pruebaproyectobalta\menuusuario.h
+
+1698707291 source:c:\users\fedin\desktop\avance7\pruebaproyectobalta\menuprincipal.cpp
+	"MenuPrincipal.h"
+	"Archivos.h"
+	"Usuarios.h"
+	"MenuUsuario.h"
+	<iostream>
+	<string>
+
+1698707291 source:c:\users\fedin\desktop\avance7\pruebaproyectobalta\movimientousuario.cpp
+	"MovimientoUsuario.h"
+	<iostream>
+	<string>
+
+1698707291 source:c:\users\fedin\desktop\avance7\pruebaproyectobalta\persona.cpp
+	"Persona.h"
+	<cstring>
+
+1698707291 source:c:\users\fedin\desktop\avance7\pruebaproyectobalta\usuarios.cpp
+	"Usuarios.h"
+	<iostream>
+	<cstring>
+	<string>
+
+1698707320 source:c:\users\fedin\desktop\avance7\pruebaproyectobalta\menuusuario.cpp
+	"MenuUsuario.h"
+	<iostream>
+
+1698707291 source:c:\users\fedin\desktop\avance 8\pruebaproyectobalta\archivos.cpp
+	"Archivos.h"
+	<string>
+	<cstdio>
+	<iostream>
+
+1698707291 c:\users\fedin\desktop\avance 8\pruebaproyectobalta\archivos.h
+	"Usuarios.h"
+	<string>
+
+1698707291 c:\users\fedin\desktop\avance 8\pruebaproyectobalta\usuarios.h
+	"Persona.h"
+
+1698707291 c:\users\fedin\desktop\avance 8\pruebaproyectobalta\persona.h
+	<string>
+	"Fecha.h"
+
+1698707292 c:\users\fedin\desktop\avance 8\pruebaproyectobalta\fecha.h
+	<string>
+
+1698707291 source:c:\users\fedin\desktop\avance 8\pruebaproyectobalta\fecha.cpp
+	<string>
+	"Fecha.h"
+
+1698707291 source:c:\users\fedin\desktop\avance 8\pruebaproyectobalta\main.cpp
+	<iostream>
+	<cstring>
+	<string>
+	"MenuPrincipal.h"
+
+1698707291 c:\users\fedin\desktop\avance 8\pruebaproyectobalta\menuprincipal.h
+	"MovimientoUsuario.h"
+
+1699359180 c:\users\fedin\desktop\avance 8\pruebaproyectobalta\movimientousuario.h
+	"Archivos.h"
+	"Usuarios.h"
+	"MenuUsuario.h"
+
+1699362105 c:\users\fedin\desktop\avance 8\pruebaproyectobalta\menuusuario.h
+	"MovimientoUsuario.h"
+
+1698707291 source:c:\users\fedin\desktop\avance 8\pruebaproyectobalta\menuprincipal.cpp
+	"MenuPrincipal.h"
+	"Archivos.h"
+	"Usuarios.h"
+	"MenuUsuario.h"
+	<iostream>
+	<string>
+
+1699384360 source:c:\users\fedin\desktop\avance 8\pruebaproyectobalta\menuusuario.cpp
+	"MenuUsuario.h"
+	<iostream>
+	"MovimientoUsuario.h"
+
+1698707291 source:c:\users\fedin\desktop\avance 8\pruebaproyectobalta\persona.cpp
+	"Persona.h"
+	<cstring>
+
+1698707291 source:c:\users\fedin\desktop\avance 8\pruebaproyectobalta\usuarios.cpp
+	"Usuarios.h"
+	<iostream>
+	<cstring>
+	<string>
+
+1699384404 source:c:\users\fedin\desktop\avance 8\pruebaproyectobalta\movimientousuario.cpp
+	"MovimientoUsuario.h"
+	<iostream>
+	<string>
+
+1699384321 source:c:\users\fedin\desktop\avance 8\pruebaproyectobalta\movimientoadministrador.cpp
+	<iostream>
+	"MovimientoAdministrador.h"
+
+1699384321 c:\users\fedin\desktop\avance 8\pruebaproyectobalta\movimientoadministrador.h
+	"Archivos.h"
+	"Usuarios.h"
+
