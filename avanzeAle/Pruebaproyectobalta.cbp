@@ -32,10 +32,16 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="Administrador.cpp" />
+		<Unit filename="Administrador.h" />
 		<Unit filename="Archivos.cpp" />
 		<Unit filename="Archivos.h" />
+		<Unit filename="ArchivosAdministradores.cpp" />
+		<Unit filename="ArchivosAdministradores.h" />
 		<Unit filename="Fecha.cpp" />
 		<Unit filename="Fecha.h" />
+		<Unit filename="MenuAdministrador.cpp" />
+		<Unit filename="MenuAdministrador.h" />
 		<Unit filename="MenuPrincipal.cpp" />
 		<Unit filename="MenuPrincipal.h" />
 		<Unit filename="MenuUsuario.cpp" />

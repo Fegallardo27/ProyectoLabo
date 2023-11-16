@@ -1,17 +1,17 @@
-#include "MenuUsuario.h"
+#include "MenuAdministrador.h"
 #include <iostream>
 #include <string>
 #include "rlutil.h"
 #include <windows.h>
 #include <conio.h>
 using namespace std;
-#include "MovimientoUsuario.h"
+#include "MovimientoAdministrador.h"
 
 
-void MenuUsuario::inicio()
+void MenuAdministrador::inicio()
 {
     int op = 1;
-    MovimientoUsuario llamador;
+    MovimientoAdministrador llamador;
 
     while (true) // Bucle para mantener el menú visible
     {
@@ -26,17 +26,17 @@ void MenuUsuario::inicio()
         int centerCol = cols / 2 - 10;
 
         rlutil::locate(centerCol - 2, centerRow -1);
-        cout << "###### MENU USUARIO ######" << endl;
+        cout << "###### MENU ADMINISTRADOR ######" << endl;
 
         // Mostrar las opciones del menú
         rlutil::locate(centerCol - 2, centerRow );
-        cout << (op == 1 ? "> " : "  ") << "Seleccionar Nuevo Turno" << endl;
+        cout << (op == 1 ? "> " : "  ") << "Agregar un administrador" << endl;
         rlutil::locate(centerCol - 2, centerRow + 1);
-        cout << (op == 2 ? "> " : "  ") << "Ver Turnos" << endl;
+        cout << (op == 2 ? "> " : "  ") << "Ver Administradores" << endl;
         rlutil::locate(centerCol - 2, centerRow + 2);
-        cout << (op == 3 ? "> " : "  ") << "Cancelar Turnos" << endl;
+        cout << (op == 3 ? "> " : "  ") << "Eliminar administrador" << endl;
         rlutil::locate(centerCol - 2, centerRow + 3);
-        cout << (op == 4 ? "> " : "  ") << "Modificar Usuario" << endl;
+        cout << (op == 4 ? "> " : "  ") << "Modificar administrador" << endl;
         rlutil::locate(centerCol - 2, centerRow + 4);
         cout << (op == 5 ? "> " : "  ") << "Volver" << endl;
 
@@ -75,8 +75,8 @@ void MenuUsuario::inicio()
                 break;
             case 4:
                 // Limpiar la pantalla antes de mostrar el nuevo contenido
-                rlutil::cls();
-                llamador.modificarUsuario();
+                    rlutil::cls();
+                    llamador.modificarAdministrador();
                 break;
             case 5:
                 // Acción para "Volver"
@@ -84,7 +84,4 @@ void MenuUsuario::inicio()
             }
         }
     }
-
-
 }
-

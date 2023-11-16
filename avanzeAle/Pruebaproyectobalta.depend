@@ -267,8 +267,9 @@
 	<string>
 	"MenuPrincipal.h"
 
-1699579309 c:\users\teio\desktop\avanzeale\menuprincipal.h
+1700094802 c:\users\teio\desktop\avanzeale\menuprincipal.h
 	"MovimientoUsuario.h"
+	"MovimientoAdministrador.h"
 
 1699579309 c:\users\teio\desktop\avanzeale\movimientousuario.h
 	"Archivos.h"
@@ -278,16 +279,18 @@
 1699579309 c:\users\teio\desktop\avanzeale\menuusuario.h
 	"MovimientoUsuario.h"
 
-1699655042 source:c:\users\teio\desktop\avanzeale\menuprincipal.cpp
+1700164741 source:c:\users\teio\desktop\avanzeale\menuprincipal.cpp
 	"MenuPrincipal.h"
 	"Archivos.h"
 	"Usuarios.h"
+	"Administrador.h"
 	"MenuUsuario.h"
+	"MenuAdministrador.h"
 	<iostream>
 	<string>
-	"rlutil.h"
 	<windows.h>
 	<conio.h>
+	"rlutil.h"
 
 1699639254 c:\users\teio\desktop\avanzeale\rlutil.h
 	<iostream>
@@ -303,18 +306,25 @@
 	<sys/types.h>
 	<sys/time.h>
 
-1699579309 source:c:\users\teio\desktop\avanzeale\menuusuario.cpp
+1700164946 source:c:\users\teio\desktop\avanzeale\menuusuario.cpp
 	"MenuUsuario.h"
 	<iostream>
+	<string>
+	"rlutil.h"
+	<windows.h>
+	<conio.h>
 	"MovimientoUsuario.h"
 
-1699579309 source:c:\users\teio\desktop\avanzeale\movimientoadministrador.cpp
+1700153544 source:c:\users\teio\desktop\avanzeale\movimientoadministrador.cpp
 	<iostream>
+	<string>
+	"rlutil.h"
 	"MovimientoAdministrador.h"
 
-1699579309 c:\users\teio\desktop\avanzeale\movimientoadministrador.h
-	"Archivos.h"
-	"Usuarios.h"
+1700095240 c:\users\teio\desktop\avanzeale\movimientoadministrador.h
+	"ArchivosAdministradores.h"
+	"Administrador.h"
+	"MenuAdministrador.h"
 
 1699673279 source:c:\users\teio\desktop\avanzeale\movimientousuario.cpp
 	"MovimientoUsuario.h"
@@ -330,5 +340,37 @@
 	"Usuarios.h"
 	<iostream>
 	<cstring>
+	<string>
+
+1700164741 source:c:\users\teio\desktop\avanzeale\menuadministrador.cpp
+	"MenuAdministrador.h"
+	<iostream>
+	<string>
+	"rlutil.h"
+	<windows.h>
+	<conio.h>
+	"MovimientoAdministrador.h"
+
+1700091152 c:\users\teio\desktop\avanzeale\menuadministrador.h
+	"MovimientoAdministrador.h"
+
+1700093852 c:\users\teio\desktop\avanzeale\administrador.h
+	"Persona.h"
+
+1700093179 source:c:\users\teio\desktop\avanzeale\administrador.cpp
+	<iostream>
+	<cstring>
+	<string>
+	"Administrador.h"
+
+1700151445 source:c:\users\teio\desktop\avanzeale\archivosadministradores.cpp
+	"ArchivosAdministradores.h"
+	"Administrador.h"
+	<string>
+	<cstdio>
+	<iostream>
+
+1700151798 c:\users\teio\desktop\avanzeale\archivosadministradores.h
+	"Administrador.h"
 	<string>
 

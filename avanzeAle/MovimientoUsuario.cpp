@@ -30,8 +30,11 @@ void MovimientoUsuario::cargarUsuario(){
     cout << "apellido: ";
     getline(cin,apellido);
     cout << "fecha nacimiento: ";
+    cout << "dia: ";
     cin >> dia;
+    cout << "mes: ";
     cin >> mes;
+    cout << "anio: ";
     cin >> anio;
     cout<<"Email: ";
     cin >> email;
@@ -90,24 +93,53 @@ void MovimientoUsuario:: mostrarUsuario(Usuarios reg){
 }
 
 void MovimientoUsuario::InicioSesion(){
+
+
+     // Obtener el número de filas y columnas de la pantalla
+        int rows = rlutil::trows();
+        int cols = rlutil::tcols();
+     // Calcular la posición para centrar
+        int centerRow = rows / 2;
+        int centerCol = cols / 2;
+
+
+        centerRow = rows / 2 - 5;  // Ajuste para mover el contenido hacia arriba
+        centerCol = cols / 2 - 10;
+
     system("cls");  // Limpiar la pantalla
 
-    centrarTexto("Inicio de Sesión");
+SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_GREEN | FOREGROUND_INTENSITY);
+    rlutil::cls();  // Limpiar la pantalla
+    rlutil::locate(centerCol-1, centerRow );
+    cout << "inicio de sesion de usuario" << endl;
+    // Restaurar el color predeterminado
+    SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_GREEN);
     int dni,posicion;
     std::string contra;
-    centrarTexto("DNI: ");
-    cin>> dni;
+    rlutil::locate(centerCol -5, centerRow +3);
+    cout << "DNI: ";
+    rlutil::locate(centerCol , centerRow +3);
+    cin >>dni;
+    rlutil::locate(centerCol -7, centerRow +5);
     cout << "CONTRASENIA: ";
-    cin>> contra;
-    cout<<endl;
+    rlutil::locate(centerCol +5, centerRow +5);
+    cin >> contra;
+    cout<<endl;;
 
     posicion = _archivo.buscar(dni);
     if (posicion >= 0){
+        system("cls");
         Usuarios nuevo = _archivo.leer(posicion);
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_GREEN | FOREGROUND_INTENSITY);
+        rlutil::locate(centerCol-1, centerRow+2);
         cout<< "BIENVENIDO "<<nuevo.getNombre()<<" "<< nuevo.getApellido()<<endl;
+        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), FOREGROUND_RED | FOREGROUND_BLUE | FOREGROUND_GREEN);
+        rlutil::msleep(3000);  // Pausa de 3 segundos
+        rlutil::cls();
         MenuUsuario menu;
         menu.inicio();
     } else {
+        system("cls");
         cout << "NO EXISTE ESE USUARIO"<<endl;
     }
 

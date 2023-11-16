@@ -1,12 +1,15 @@
 #include "MenuPrincipal.h"
 #include "Archivos.h"
 #include "Usuarios.h"
+#include "Administrador.h"
 #include "MenuUsuario.h"
+#include "MenuAdministrador.h"
 #include <iostream>
 #include <string>
-#include "rlutil.h"
 #include <windows.h>
 #include <conio.h>
+#include "rlutil.h"
+
 
 using namespace std;
 
@@ -104,8 +107,12 @@ void MenuPrincipal::Ejecutar()
                 switch (op)
                 {
                 case 1:
+                    rlutil::cls();
+                    rlutil::locate(centerCol, centerRow);
                     cout << "Ingresando como Administrador..." << endl;
-                    // Agrega aquí la lógica para el modo administrador
+                    rlutil::msleep(3000);  // Pausa de 3 segundos
+                    rlutil::cls();
+                    _administrador.InicioSesion();
                     break;
                 case 2:
                     rlutil::cls();
@@ -183,40 +190,6 @@ void MenuPrincipal::Ejecutar()
                                 break;
                             }
 
-
-
-                            /*string opMen, opRegistro;
-                            cout << "USTED YA SE ENCUENTRA REGISTRADO?"<<"\n"<< "(indique si o no) ";
-                            cin>>opMen;
-                            cin.ignore();
-                            system("cls");
-
-                            if(opMen=="SI"||opMen=="si"||opMen=="Si"){
-                            	cout<<" INGRESE SU DNI Y CONTRASENIA "<<endl;
-                            	_usuario.inicioSesion();
-                            	system("pause>>null");
-
-                            	cout<<endl;
-                            }
-
-                            if (opMen=="NO"||opMen=="No"||opMen=="no"){
-                            	cout<<"DESEA REGISTRARSE?"<<"\n"<< "(indique si o no) "  ;
-                            	cin>>opRegistro;
-                            	cin.ignore();
-                            	system("cls");
-
-                            	if(opRegistro=="SI"||opRegistro=="si"||opRegistro=="Si"){
-                            		_usuario.cargarUsuario();
-                            		system("cls");
-                            	} else
-                            		cout<<"SALIR DEL PROGRAMA? (SI/NO) ";
-                            		cin>>opMen;
-                            		if (opMen=="SI"||opMen=="si"||opMen=="Si"){
-                            			return;
-                            		}else
-                            		 system("cls");
-
-                            }*/
                         }
                     }
                 }
